@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Marnie sells a random animal product every day.",
     "UniqueID": "Ravenhyde.RavensTinyShopAddsMarnie",
-    "UpdateKeys": [],
+    "UpdateKeys": ["GitHub:lillibetsmith/Ravenhyde-RavensTinyShopAdds"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
