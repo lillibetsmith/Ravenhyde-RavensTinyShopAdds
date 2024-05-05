@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Willie sells a random fish every day.",
     "UniqueID": "Ravenhyde.RavensTinyShopAdditionsWillie",
-    "UpdateKeys": [],
+    "UpdateKeys": ["GitHub:lillibetsmith/Ravenhyde-RavensTinyShopAdds"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
