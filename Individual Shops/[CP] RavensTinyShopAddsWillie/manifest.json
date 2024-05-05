@@ -1,0 +1,11 @@
+{
+    "Name": "Raven's Tiny Shop Additions for Willie",
+    "Author": "ravenhyde",
+    "Version": "1.0.0",
+    "Description": "Willie sells a random fish every day.",
+    "UniqueID": "Ravenhyde.RavensTinyShopAdditionsWillie",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

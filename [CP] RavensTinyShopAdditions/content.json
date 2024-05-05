@@ -1,0 +1,306 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Fields": {
+        "154": {
+          "Price": 50
+        },
+        "158": {
+          "Price": 50
+        },
+        "130": {
+          "Price": 50
+        },
+        "BigChest": {
+          "Price": 50
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Blacksmith",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Minerals": {
+          "ItemId": "RANDOM_ITEMS (O)",
+          "MaxItems": 1,
+          "AvoidRepeat": "True",
+          "PerItemCondition": "ITEM_CATEGORY Target -2 -12",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10,
+                10,
+                10,
+                15
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AnimalShop",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Animalprods": {
+          "RandomItemId": [
+            "(O)174",
+            "(O)176",
+            "(O)180",
+            "(O)182",
+            "(O)184",
+            "(O)186",
+            "(O)440",
+            "(O)442",
+            "(O)444",
+            "(O)446",
+            "(O)436",
+            "(O)438",
+            "(O)430"
+          ],
+          "MaxItems": 1,
+          "AvoidRepeat": "True",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10,
+                10,
+                10,
+                15
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AdventureShop",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Weaponishes": {
+          "RandomItemId": [
+            "(W)5",
+            "(W)51",
+            "(W)18",
+            "(W)16",
+            "(W)10",
+            "(W)21",
+            "(W)44",
+            "(W)2",
+            "(W)20",
+            "(W)31",
+            "(W)15",
+            "(W)23",
+            "(W)29",
+            "(W)34",
+            "(W)4",
+            "(W)3",
+            "(W)61",
+            "(W)17",
+            "(W)6",
+            "(W)46",
+            "(W)9",
+            "(W)26",
+            "(W)14",
+            "(W)8",
+            "(W)60",
+            "(W)43",
+            "(W)49",
+            "(W)0",
+            "(W)19",
+            "(W)1",
+            "(W)50",
+            "(W)50",
+            "(W)11",
+            "(W)52",
+            "(W)7",
+            "(W)28",
+            "(W)45",
+            "(W)22",
+            "(W)24",
+            "(W)27",
+            "(W)12",
+            "(W)48"
+          ],
+          "MaxItems": 2,
+          "AvoidRepeat": "True",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                10,
+                10,
+                20,
+                20,
+                25,
+                30
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Perishables": {
+          "ItemId": "RANDOM_ITEMS (O)",
+          "MaxItems": 1,
+          "AvoidRepeat": "True",
+          "PerItemCondition": "ITEM_CATEGORY Target -74 -75 -79 -80 -81",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10,
+                10,
+                10,
+                15,
+                20
+              ]
+            }
+          ]
+        },
+        "Ravenhyde_GoldPerishables": {
+          "ItemId": "RANDOM_ITEMS (O)",
+          "PerItemCondition": "ITEM_CATEGORY Target -75 -79 -81",
+          "Quality": 2,
+          "Condition": "SYNCED_RANDOM day ravenhyde_pierre_golden .1",
+          "MaxItems": 1,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                10,
+                15,
+                20
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Carpenter",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Craftables": {
+          "RandomItemId": [
+            "(BC)10",
+            "(BC)BaitMaker",
+            "(BC)114",
+            "(BC)16",
+            "(BC)21",
+            "(BC)Dehydrator",
+            "(BC)FishSmoker",
+            "(BC)12",
+            "(BC)9",
+            "(BC)17",
+            "(BC)24",
+            "(BC)MushroomLog",
+            "(BC)19",
+            "(BC)15",
+            "(BC)20",
+            "(BC)8",
+            "(BC)25",
+            "(BC)158",
+            "(BC)154",
+            "(O)645",
+            "(O)621",
+            "(O)599",
+            "(O)516",
+            "(O)330",
+            "(BC)130",
+            "(BC)BigChest"
+          ],
+          "MaxItems": 1,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10,
+                10,
+                10,
+                15,
+                15,
+                20
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "FishShop",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Fishies": {
+          "ItemId": "RANDOM_ITEMS (O)",
+          "MaxItems": 1,
+          "AvoidRepeat": "True",
+          "PerItemCondition": "ITEM_CATEGORY Target -4",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                2,
+                5,
+                10,
+                10,
+                20
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

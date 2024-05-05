@@ -1,0 +1,27 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Blacksmith", "Items" ],
+            "Entries": {
+                "Ravenhyde_Minerals": {
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "MaxItems": 1,
+                    "AvoidRepeat": "True",
+                    "PerItemCondition": "ITEM_CATEGORY Target -2 -12",
+                    "AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+        "PriceModifiers": [
+
+    {
+        "Modification": "Multiply",
+        "RandomAmount": [ 5, 10, 10, 10, 15 ]
+    } ]
+	}
+	}
+	}
+	]
+	}
+

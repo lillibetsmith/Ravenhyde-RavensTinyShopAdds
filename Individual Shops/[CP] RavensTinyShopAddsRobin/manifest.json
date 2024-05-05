@@ -1,0 +1,11 @@
+{
+    "Name": "Raven's Tiny Shop Additions for Robin",
+    "Author": "ravenhyde",
+    "Version": "1.0.0",
+    "Description": "Robin sells a random machine, chest, or sprinkler.",
+    "UniqueID": "Ravenhyde.RavensTinyShopAddsRobin",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

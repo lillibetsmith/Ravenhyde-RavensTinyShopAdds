@@ -1,0 +1,42 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+				"Ravenhyde_Perishables": {
+					"ItemId": "RANDOM_ITEMS (O)",
+					"MaxItems": 1,
+					"AvoidRepeat": "True",
+					"PerItemCondition": "ITEM_CATEGORY Target -74 -75 -79 -80 -81",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10, 10, 10, 15, 20]
+					} ]
+					} ,
+
+					"Ravenhyde_GoldPerishables":{
+					"ItemId": "RANDOM_ITEMS (O)",
+					"PerItemCondition": "ITEM_CATEGORY Target -75 -79 -81",
+					"Quality": 2,
+					"Condition": "SYNCED_RANDOM day ravenhyde_pierre_golden .1",
+					"MaxItems": 1,
+                     "AvailableStock": 1,
+                  "AvailableStockLimit": "Player",
+                     "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                10, 15, 20]}]
+                }
+                }
+                }
+                ]
+                }

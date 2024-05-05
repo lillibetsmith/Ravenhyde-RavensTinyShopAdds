@@ -1,0 +1,40 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+   {
+   "Action": "EditData",
+   "Target": "Data/BigCraftables",
+   "Fields": {
+            "154": {"Price": 50},
+            "158": {"Price": 50},
+            "130": {"Price": 50},
+            "BigChest": {"Price": 50}
+            }
+   },
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+				"Ravenhyde_Craftables": {
+					"RandomItemId": [ "(BC)10", "(BC)BaitMaker", "(BC)114", "(BC)16", "(BC)21", "(BC)Dehydrator", "(BC)FishSmoker", "(BC)12", "(BC)9", "(BC)17", "(BC)24", "(BC)MushroomLog", "(BC)19", "(BC)15", "(BC)20", "(BC)8", "(BC)25", "(BC)158", "(BC)154", "(O)645", "(O)621", "(O)599", "(O)516", "(O)330", "(BC)130", "(BC)BigChest"],
+					"MaxItems": 1,
+                     "AvailableStock": 1,
+                  "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5,
+                10, 10, 10, 15, 15, 20]
+             }
+                              ]
+                              }
+                              }
+                              }
+                              ]
+                              }
+
+
+
+

@@ -1,0 +1,27 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "Entries": {
+				"Ravenhyde_Fishies": {
+					"ItemId": "RANDOM_ITEMS (O)",
+					"MaxItems": 1,
+					"AvoidRepeat": "True",
+					"PerItemCondition": "ITEM_CATEGORY Target -4",
+                    "AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+        "PriceModifiers": [
+
+    {
+        "Modification": "Multiply",
+        "RandomAmount": [2, 5, 10, 10, 20]
+    } ]
+	}
+					}
+				}
+			]
+}
+

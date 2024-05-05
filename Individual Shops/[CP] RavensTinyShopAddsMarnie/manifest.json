@@ -1,0 +1,11 @@
+{
+    "Name": "Raven's Tiny Shop Adds for Marnie",
+    "Author": "ravenhyde",
+    "Version": "1.0.0",
+    "Description": "Marnie sells a random animal product every day.",
+    "UniqueID": "Ravenhyde.RavensTinyShopAddsMarnie",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

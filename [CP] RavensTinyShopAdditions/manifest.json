@@ -1,0 +1,11 @@
+{
+    "Name": "Raven's Tiny Shop Additions",
+    "Author": "ravenhyde",
+    "Version": "1.0.0",
+    "Description": "Various shops sell a small amount of extra items.",
+    "UniqueID": "Ravenhyde.RavensTinyShopAdditions",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AnimalShop",
+        "Items"
+      ],
+      "Entries": {
+        "Ravenhyde_Animalprods": {
+          "RandomItemId": [ "(O)174", "(O)176", "(O)180", "(O)182", "(O)184", "(O)186", "(O)440", "(O)442", "(O)444", "(O)446", "(O)436", "(O)438", "(O)430"],
+          "MaxItems": 1,
+          "AvoidRepeat": "True",
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "PriceModifiers": [
+            {
+              "Modification": "Multiply",
+              "RandomAmount": [
+                5, 10, 10, 10, 15
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

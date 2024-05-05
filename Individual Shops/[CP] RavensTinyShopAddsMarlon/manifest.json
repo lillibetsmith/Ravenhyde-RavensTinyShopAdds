@@ -1,0 +1,11 @@
+{
+    "Name": "Raven's Tiny Shop Additions for Adventurer's Guild",
+    "Author": "ravenhyde",
+    "Version": "1.0.0",
+    "Description": "Marlon sells one of a selection of swords.",
+    "UniqueID": "Ravenhyde.RavensTinyShopAddsMarlon",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
