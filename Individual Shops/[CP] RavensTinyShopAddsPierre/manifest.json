@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Pierre sells a random seed, fruit, veggie, flower, or forageable every day.",
     "UniqueID": "Ravenhyde.RavensTinyShopAddsPierre",
-    "UpdateKeys": [],
+    "UpdateKeys": ["GitHub:lillibetsmith/Ravenhyde-RavensTinyShopAdds"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
