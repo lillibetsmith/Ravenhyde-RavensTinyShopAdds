@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Marlon sells one of a selection of swords.",
     "UniqueID": "Ravenhyde.RavensTinyShopAddsMarlon",
-    "UpdateKeys": [],
+    "UpdateKeys": ["GitHub:lillibetsmith/Ravenhyde-RavensTinyShopAdds"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
