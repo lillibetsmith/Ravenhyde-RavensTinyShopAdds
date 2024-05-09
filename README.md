@@ -49,6 +49,10 @@ In addition, by default these are set to allow one per player (allowing multiple
 
 I can't see why not! It's a Content Patcher mod, which means that if you don't have the mod you won't be able to use it where another person could. I haven't been able to test as I don't use multiplayer.
 
+**Does it work with expansion mods?**
+
+I've only tried it with Stardew Valley Expanded, but had no issues so far. The three shops that carry categories of items (Pierre, Willie, and Clint) will carry the new items in their defined categories. There is a remote possiblity that if one of the items in an expansion mod does not have a sell price for some reason (this only applies to items one of those three shops would sell) as this would cause the item to be free.
+
 **I want the shops to sell two items per day/I only want one purchase per farm:**
 
 I'm currently not set up for Generic Mod Config Menu (it's on my list of things to do but not high-priority), but some things can manually be changed.
