@@ -64,7 +64,7 @@ I'm currently not set up for Generic Mod Config Menu (it's on my list of things 
 Note that these lines apply on a per-shop basis; setting things so Clint sells 2 items a day will not have an effect on Marnie's shop.
 
 If you are confused as to the difference between MaxItems and AvailableStock, here's an example:
-- You set MaxItems to 2 and AvailableStock to 1. When you open the shop menu, you can buy one each of a ruby an a pyrite.
+- You set MaxItems to 2 and AvailableStock to 1. When you open the shop menu, you can buy one each of a ruby and a pyrite.
 - You set MaxItems to 1 and AvailableStock to 2. When you open the menu, you can buy up to 2 pyrite but Clint isn't stocking rubies today.
 - You set MaxItems to 2 and AvailableStock to 2. When you open the menu, you can buy 2 rubies and 2 pyrites.
 
